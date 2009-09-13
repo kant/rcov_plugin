@@ -41,7 +41,7 @@ def run_coverage(files)
   end
 
   rcov_bin = PLATFORM =~ /java/ ? "jruby -S rcov" : "rcov"
-  rcov = "#{rcov_bin} --rails -Ilib:test --sort coverage --text-report #{exclude} --no-validator-links"
+  rcov = "#{rcov_bin} --rails -Ilib:test --sort coverage --text-report #{exclude}"
   puts
   puts
   puts "Running tests..."
