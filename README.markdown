@@ -41,6 +41,7 @@ Special thanks go to all of the contributors to this plugin:
 * leonardoborges
 * dovadi
 * baldowl
+* ultrasaurus
 * archfear
 
 License
