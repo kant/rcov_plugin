@@ -1,3 +1,7 @@
+nragaz: This fork updated to avoid deprecations in Rails 3 and to run tasks in bundle context.
+
+--
+
 rcov_plugin
 ===========
 

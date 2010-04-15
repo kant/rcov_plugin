@@ -40,7 +40,7 @@ def run_coverage(files)
     exclude = exclude + params
   end
 
-  rcov_bin = RUBY_PLATFORM =~ /java/ ? "jruby -S rcov" : "rcov"
+  rcov_bin = RUBY_PLATFORM =~ /java/ ? "jruby -S bundle exec rcov" : "bundle exec rcov"
   rcov = "#{rcov_bin} --rails -Ilib:test --sort coverage --text-report #{exclude}"
   puts
   puts
