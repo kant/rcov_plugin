@@ -62,7 +62,7 @@ Special thanks go to all of the contributors to this plugin:
 
 License
 =======
-Copyright (c) 2008 Alan Johnson
+Copyright (c) 2008-2010 Alan Johnson
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
