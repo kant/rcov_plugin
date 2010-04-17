@@ -6,6 +6,7 @@ module RcovPlugin
     railtie_name :rcov_plugin
 
     rake_tasks do
+      puts "Loading rake tasks"
       load "tasks/rcov.rake"
     end
   end
