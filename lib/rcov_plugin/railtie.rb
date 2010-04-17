@@ -1,6 +1,8 @@
 require 'rcov_plugin'
 require 'rails'
 
+puts "Loaded rcov_plugin"
+
 module RcovPlugin
   class Railtie < Rails::Railtie
     railtie_name :rcov_plugin
