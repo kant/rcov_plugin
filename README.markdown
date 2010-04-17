@@ -1,7 +1,3 @@
-nragaz: This fork updated to avoid deprecations in Rails 3 and to run tasks in bundle context.
-
---
-
 rcov_plugin
 ===========
 
@@ -38,6 +34,12 @@ Requirements
 
 This task requires that you have rcov installed and on your path.
 
+Using With Rails 2
+============
+Use the following command to install this plugin with Rails 2:
+
+    script/plugin install -r rails_2 git://github.com/commondream/rcov_plugin.git
+
 Contributors
 ============
 Special thanks go to all of the contributors to this plugin:
@@ -46,6 +48,7 @@ Special thanks go to all of the contributors to this plugin:
 * dovadi
 * baldowl
 * archfear
+* nragaz
 
 License
 =======
