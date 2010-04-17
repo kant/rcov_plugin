@@ -20,6 +20,16 @@ to their first letters:
     rake test:coverage SHOW_ONLY=helpers,controllers
     rake test:coverage SHOW_ONLY=h,c
 
+Installing
+=============
+As of Rails 3, rake tasks can be distributed easily in plugins packaged as gems, and that's what we do here. So, to install rcov_plugin, simply do:
+
+gem install rcov_plugin
+
+or add the gem to your bundler Gemspec
+
+gem "rcov_plugin"
+
 JRuby Support
 =============
 rcov_plugin works great with JRuby.
@@ -32,11 +42,11 @@ Special thanks go to Leonard Borges ([http://www.leonardoborges.com](http://www.
 Requirements
 ============
 
-This task requires that you have rcov installed and on your path.
+This plugin requires rails 3 and 
 
 Using With Rails 2
 ============
-Use the following command to install this plugin with Rails 2:
+This plugin worked with Rails 2 back in the day, and I've got a tag on the repo that you can use to install the old Rails 2 version. Use the following command:
 
     script/plugin install -r rails_2 git://github.com/commondream/rcov_plugin.git
 
