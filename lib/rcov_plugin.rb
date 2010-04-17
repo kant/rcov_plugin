@@ -1,3 +1,3 @@
 module RcovPlugin
-  require 'rcov_plugin/raltie' if defined?(Rails)
+  require 'rcov_plugin/railtie' if defined?(Rails)
 end
